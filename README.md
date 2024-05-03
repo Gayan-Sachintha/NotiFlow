@@ -1,4 +1,4 @@
-![image](https://github.com/Gayan-Sachintha/NotiFlow/assets/118958174/ac5d3044-f470-4ae9-ab98-ff4ebfeb6f2d)# NotiFlow
+# NotiFlow
 
 NotiFlow is a comprehensive notification management system designed to streamline and enhance communication flows. This guide covers the steps necessary to set up and run NotiFlow on your local machine.
 
