@@ -1,0 +1,60 @@
+
+.bodyWithBackground {
+  background-image: url('./7xm.xyz858099.jpg'); 
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;  
+  min-width: 100vw; 
+}
+
+.bg-dark {
+  background-color: #FFF9C4; 
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.form-control:hover, .MuiButton-root:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+.MuiButton-root {
+  background-color: #FFC107; 
+  color: white;
+  transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.MuiButton-root:hover {
+  background-color: #DDA000;  
+}
+
+.donor-drawer-header, .title {
+  color: #795548;  
+}
+
+.donor-link, .donor-link:hover {
+  color: #795548; 
+}
+
+.donor-link:hover {
+  color: #880E4F;  
+}
+ 
+.calendar-container .calendar-cell {
+  background-color: #FFF9C4; 
+}
+
+.addreservedate {
+  color: #FBFADA;
+  border-color: #FBFADA;
+
+} 

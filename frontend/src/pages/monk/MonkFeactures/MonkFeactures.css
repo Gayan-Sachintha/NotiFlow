@@ -1,0 +1,14 @@
+.monkFeatures-background {
+    background-image: url('./images/pexels-sadaham-yathra-799352.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding-left: 240px;
+    background-attachment: fixed;
+    
+}
+.content {
+    overflow: auto;
+  }
+  

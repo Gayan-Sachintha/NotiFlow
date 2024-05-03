@@ -1,0 +1,80 @@
+/* Navbar.css */
+
+nav {
+    background-color: #3c6298;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: baseline;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  li:last-child {
+    margin-right: 0;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  a:hover {
+    color: #ccc;
+  }
+  
+  .right
+  {
+position: absolute;
+right: 0;
+width: 300px;
+
+border-color: #fff;
+
+  }
+
+.login
+{
+    color: rgb(255, 255, 255);
+}
+
+
+.round-button {
+    background-color: #ffffff;  
+    color: #3c6298; 
+    border: none;
+    border-radius: 25px;
+    width: 100px;
+    height: 30px;
+ 
+    font-size: 16px;  
+    cursor: pointer;
+    margin-right: 20px;
+     transition: transform 0.7s ease;
+    
+  }
+  
+  .round-button:hover {
+    background-color: #28556f;
+    color: #fff;  
+  
+  }
+  
+
+  .btns
+  {
+    display: flex;
+  }

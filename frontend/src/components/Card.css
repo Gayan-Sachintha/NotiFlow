@@ -1,0 +1,24 @@
+.component {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+   
+    margin-top: 100px;
+    border-radius: 10px;
+  }
+  
+  .image {
+    width: 50%;  
+    height: 80%;  
+    margin: 60px;
+    background-color: rgb(228, 228, 228);
+  }
+  
+  .description {
+    width: 50%;  
+    height: 80%;  
+    padding: 20px;  
+    box-sizing: border-box;
+  }
+  

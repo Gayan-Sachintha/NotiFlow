@@ -1,0 +1,64 @@
+.video-content-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .content-overlay {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+  }
+  
+  .calenderform {
+    background-color: rgba(18, 55, 42, 0.8);;
+    backdrop-filter: blur(04px);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+
+.calformdonor {
+  cursor: pointer;
+  font-weight: bold;
+  color: #12372A;
+  background-color: #FBFADA;
+}
+
+@keyframes reservefade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.reservefade {
+  animation-name: fadeIn;
+  animation-duration: 1s;  
+  animation-fill-mode: both;
+}
+
+.txtDateYear-reserve {
+  color: #FBFADA;
+}
+
+.tooltip.bs-tooltip-top .tooltip-arrow::before {
+  border-top-color: #12372A; 
+}
+
+.tooltip-inner {
+  background-color: #12372A; 
+  color: #FBFADA;  
+  font-weight: bold;  
+  padding: 5px 10px;  
+  border-radius: 5px;  
+}

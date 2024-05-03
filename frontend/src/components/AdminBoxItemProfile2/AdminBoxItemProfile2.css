@@ -1,0 +1,23 @@
+.adminfeatures2-card {
+    max-width: 345px;
+    background-color: #884A39;
+    margin: 16px;
+    cursor: pointer;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease-in-out, background-color 0.5s ease-in-out;
+    color: #F9E0BB;
+    outline: none;
+}
+
+.adminfeatures2-card:hover {
+    transform: scale(1.05);
+    background-color: #C38154;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 16px;
+}
+
+.adminfeatures2-card .ant-card-meta-title {
+    color: #F9E0BB !important;
+    font-size: 20px; 
+}

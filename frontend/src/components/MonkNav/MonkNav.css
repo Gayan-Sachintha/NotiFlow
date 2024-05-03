@@ -1,0 +1,62 @@
+.monk-nav-container {
+  height: 100%;
+  /* width: 100vh; */
+  position: fixed;
+  left: 0;
+  background-color: #884A39;
+  color: #F9E0BB;
+}
+
+.navlistMonk {
+  width: auto;
+
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.monk-name-section {
+  padding: 16px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #F9E0BB;
+  margin-bottom: 16px;
+}
+
+.monk-nav-item {
+  margin: 8px 0;
+  border-radius: 4px;
+  transition: background-color 300ms ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.monk-nav-item i {
+  font-size: 1.25rem;
+}
+
+.monk-nav-item:hover {
+  background-color: #CDBE70;
+  color: #000000;
+}
+
+.monk-nav-item a {
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.monk-nav-item .MuiListItemText-root {
+  text-align: start;
+}
+
+.monk-nav-item .MuiListItemIcon-root {
+  color: inherit;
+}

@@ -1,0 +1,50 @@
+ 
+.body-background {
+  background-image: url('./videos/ask\ special\ reservation.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-attachment: fixed;
+}
+
+.form {
+  background-color: rgba(18, 55, 42, 0.9);;
+  backdrop-filter: blur(3px);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+.calendar-date,
+.calendar-day {
+  font-weight: bold;
+  color: #12372A;
+  font-size: 20px;
+}
+
+.datetimeform {
+background-color: #FBFADA;  
+opacity: 0.9;
+cursor: pointer;
+}
+
+@keyframes askpagefadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.askpagefadein {
+  animation-name: fadeIn;
+  animation-duration: 1s;  
+  animation-fill-mode: both;  
+}
+
+.txtMonthYear {
+  color: #FBFADA;
+}

@@ -1,0 +1,22 @@
+.changeDonationform {
+    background-color: #884A39;
+    opacity: 90%;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.changeDonationmonth {
+    color: #F9E0BB;
+
+}
+.changeActivedays {
+    color: #884A39;
+    cursor: pointer;
+    font-weight: bold;
+}
+.changePrevButton {
+    background-color: #884A39;
+    color: #F9E0BB;
+  }
+  
+ 

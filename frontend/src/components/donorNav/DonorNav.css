@@ -1,0 +1,46 @@
+.custom-drawer .MuiDrawer-paper {
+    background-color: #123456;
+    color: #fff;
+}
+
+.custom-list-item .MuiListItem-button:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.custom-font {
+    font-family: 'Roboto', sans-serif;
+}
+
+.donorDrawer {
+    background-color: #FBFADA;
+    color: #12372A;
+    min-height: 100vh;
+}
+
+.donor-list-item:hover {
+    background-color: #FFECB3;
+}
+
+
+.donor-link-nav {
+    color: #12372A;
+    text-decoration: none;
+}
+
+.donor-link-nav:hover {
+    color: #12372A;
+}
+
+.title {
+    color: #FBFADA;
+    font-weight: bold;
+}
+
+.donorTemplename {
+    font-weight: bold;
+    text-align: center;
+    background-color: #12372A;
+    padding: 16px;
+    font-size: 20px;
+    color: #FBFADA;
+}

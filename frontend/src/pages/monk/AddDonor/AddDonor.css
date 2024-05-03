@@ -1,0 +1,33 @@
+.addDonorBackground {
+  min-height: 100vh;
+  width: auto;
+  background-image: url('./images/pexels-sadaham-yathra-799352.jpg');
+  background-size: 100%;
+  background-position: fixed;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+.addDonorbg {
+  position: fixed;
+  top: 15%;
+  left: 35%;
+  display: flex;
+  background-color: #C38154;
+  opacity: 90%;
+}
+
+.addDonortxtarea {
+  color: #F9E088;
+}
+
+.addDonorbtn {
+  background-color: #F9E088;  
+  color: #12372A;
+}

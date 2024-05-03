@@ -1,0 +1,40 @@
+/* AdminNavbar.css */
+.drawerContainer {
+    width: 250px;
+    color: black;
+  }
+  
+  .menuButton {
+    color: #fff; /* White menu icon */
+  }
+  
+  .drawerContainer .MuiListItemIcon-root {
+    color: #4caf50; /* Light green icons */
+  }
+  
+  .MuiDrawer-paper {
+    width: 250px;
+    background-color: #004D40;  
+    color: black; 
+  }
+  
+  .MuiListItemIcon-root {
+    color: black;  
+  }
+  
+  .MuiDrawer-paper a {
+    color: black; /* Ensure links are white */
+  }
+  
+  .logout-button {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .drawerContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+ 

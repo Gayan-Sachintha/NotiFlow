@@ -1,0 +1,8 @@
+.sendtxtMsgForm {
+    position: fixed;
+    top: 15%;
+    left: 35%;
+    display: flex;
+    background-color: #C38154;
+    opacity: 90%;
+  }
